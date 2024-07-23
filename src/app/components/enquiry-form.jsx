@@ -6,7 +6,7 @@ import React from 'react'
 const Enquiry_form = () => {
   const navigate=useRouter()
   return (
-    <div className="bg-[url('/images/landing-form-bg.png')] bg-no-repeat bg-custom-image bg-cover bg-center w-full px-5 pt-4 pb-20">
+    <div className="flex flex-col justify-center items-center bg-[url('/images/landing-form-bg.png')] bg-no-repeat bg-custom-image bg-cover bg-center w-full px-5 pt-4 pb-20">
         <div className="flex gap-5 justify-between w-full text-sm font-bold tracking-wide leading-5 text-white max-w-[1224px] max-md:flex-wrap max-md:max-w-full">
           <img
             src="/images/header-logo.png"
