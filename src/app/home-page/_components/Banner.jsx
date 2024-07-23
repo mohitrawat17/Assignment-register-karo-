@@ -2,7 +2,7 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <div className="bg-[url('/images/banner.png')] bg-no-repeat flex  relative flex-col justify-center items-center px-16 py-20 max-md:py-8 w-full min-h-[729px] max-md:px-5 max-md:max-w-full">
+    <div className="bg-[url('/images/banner.png')] bg-no-repeat bg-custom-image bg-cover bg-center flex  relative flex-col justify-center items-center px-16 py-20 max-md:py-8 w-full min-h-[729px] max-md:px-5 max-md:max-w-full">
       <div className="flex relative flex-col items-center mt-16 mb-12 max-md:mb-5 max-w-full max-md:my-8">
         <div className="flex flex-col text-center max-md:max-w-full">
           <div className="text-xl font-semibold leading-6 text-white max-md:max-w-full">

@@ -35,7 +35,7 @@ const Workspace = () => {
         </div>
 
         {/* second row */}
-        <div className="flex h-20 gap-5 items-center p-px mt-10 text-3xl leading-10 text-center bg-white border border-solid border-zinc-300 rounded-[32px] text-zinc-600 max-md:flex-wrap max-md:mt-10 max-md:max-w-full max-md:hidden">
+        <div className="flex h-20 gap-5 items-center p-px mt-10 text-xl leading-10 text-center bg-white border border-solid border-zinc-300 rounded-[32px] text-zinc-600 max-md:flex-wrap max-md:mt-10 max-md:max-w-full max-md:hidden">
           <div
             onClick={() => setSelected(0)}
             className="px-16 pt-5 pb-3.5 cursor-pointer hover:text-white hover:bg-green-500 hover:border border-solid border-zinc-300 hover:rounded-[53px] max-md:px-5"
