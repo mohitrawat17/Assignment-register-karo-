@@ -39,7 +39,7 @@ const Banner = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col mt-9 max-w-full text-white max-md:text-black w-[741px]">
+        <div className="flex flex-col mt-9 max-w-full text-white  w-[741px]">
           <div className="text-base font-bold leading-4 max-md:max-w-full">
             Trending cities
           </div>
